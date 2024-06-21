@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_height="match_parent"
+        android:layout_width="match_parent" android:background="@color/app_background">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/card"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/button_shape"
+                android:fadingEdge="horizontal|vertical"
+                android:text="Debit/Credit Card"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/netBanking"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/button_shape"
+                android:fadingEdge="horizontal|vertical"
+                android:text="Net Banking"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/Email"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/button_shape"
+                android:fadingEdge="horizontal|vertical"
+                android:text="Collect from Location"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/shareViaMail"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/button_shape"
+                android:fadingEdge="horizontal|vertical"
+                android:text="Share via mail..."
+                android:textColor="@color/white"
+                android:textStyle="normal|bold">
+
+            </Button>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/thanks"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="32dp"
+                android:textSize="40sp"
+                android:gravity="center_horizontal"
+                android:fontFamily="cursive"
+                android:text="Thanks\n    for \nPayment!!!"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
